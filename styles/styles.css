@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+body {
+    background-color: #FAF9FE;
+}
+
+.bottom-nav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    box-shadow: 2px 4px 29px -1px rgba(237, 237, 246, 1);
+    height: 80px;
+    border: 1px solid #FBEEFF;
+    border-radius: 10px;
+}
+
+.nav-links {
+    margin-top: 24px;
+}
+
+i.bi.bi-house-fill {
+    color: #9378FF;
+    font-size: 24px;
+}
+
+i.bi.bi-wallet-fill {
+    color: #9378FF;
+    font-size: 24px;
+}
+
+i.bi.bi-chat-square-fill {
+    color: #9378FF;
+    font-size: 22px;
+}
+
+i.bi.bi-person-circle {
+    color: #9378FF;
+    font-size: 24px;
+}
+
+.page-title {
+    font-size: 40px;
+    font-family: 'Red Hat Display Black', sans-serif;
+    margin-top: 50px;
+    white-space: nowrap;
+}
+
+.page-title-small {
+    font-size: 40px;
+    font-family: 'Red Hat Display Black', sans-serif;
+    margin-top: 50px;
+    white-space: nowrap;
+}
+
+p.page-title-small {
+    font-size: 25px;
+    font-family: 'Red Hat Display Bold', sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.charts img {
+    margin-top: 10px;
+}
+
+.proj-text {
+    font-size: 25px;
+    font-family: 'Red Hat Display Bold', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 23px;
+    white-space: nowrap;
+}
+
+.chip {
+    height: 34px;
+    width: 84px;
+    background-color: #FBEAFF;
+    text-align: center;
+    padding: 8px;
+    white-space: nowrap;
+    font-size: 16px;
+    font-family: 'Public Sans Medium', sans-serif;
+    margin-left: 5px;
+    margin-top: 20px;
+    transform: translateX(50px);
+}
+
+.flex {
+    display: flex;
+}
+
+.wide-card {
+    width: 359px;
+    height: 102px;
+    background-color: #ffffffff;
+    margin: 8px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 10px 43px 32px -19px rgba(217, 217, 217, 1);
+    -moz-box-shadow: 10px 43px 32px -19px rgba(217, 217, 217, 1);
+    box-shadow: 10px 43px 32px -19px rgba(217, 217, 217, 1);
+}
+
+h4 {
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 10px;
+}
+
+.style {
+    font-size: 16px;
+    font-family: 'Public Sans', sans-serif;
+    color: #99879D;
+}

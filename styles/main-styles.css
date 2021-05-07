@@ -179,3 +179,10 @@ input[type=email]::placeholder {
     text-transform: capitalize;
     transform: translateX(20px);
 }
+
+.bottom-nav {
+    background-color: #99879D;
+    position: fixed;
+    bottom: 0%;
+    overflow: hidden;
+}
